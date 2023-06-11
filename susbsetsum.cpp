@@ -10,6 +10,7 @@ void solve(int index, vector<int> &num, vector<int> &ans, int val)
     solve(index + 1, num, ans, val + num[index]);
     solve(index + 1, num, ans, val);
 }
+
 vector<int> subsetSum(vector<int> &num)
 {
     int index = 0;
